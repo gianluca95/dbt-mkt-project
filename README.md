@@ -142,8 +142,7 @@ This will run the tests you defined in your schema.yml files (e.g., not_null, un
 #### 3.3 Screenshots of dbt Tests
 Here are some example screenshots of the successful tests:
 
-tests_success_1.png
-tests_success_2.png
+![dbt-test-success](https://github.com/gianluca95/dbt-mkt-project/blob/main/images/dbt-test.png).
 
 ### 4. Analytical Queries
 We included multiple analytical queries in the sql_queries folder (for example):
@@ -179,7 +178,7 @@ power_bi_dashboard.png
 - Monitor ROAS and Conversion Quality: Ensure that the increased conversions from higher spend translate into actual business value (e.g., sales, leads).
 
 ### 7. Next Steps
-1. Extending the Analysi
+1. Extending the Analysis
 - Implement advanced modeling in dbt (such as additional fact tables or calculated metrics).
 - Set up continuous integration or scheduling for daily/weekly updates.
 2. Enhancing Visualizations
