@@ -160,11 +160,9 @@ We connected Power BI to our local Postgres database to create the following das
 - Line Graph: Daily Spend & Conversions over time for top-performing campaign
 - Overall Dashboard: Interactive filters for channel and date range
 
-Screenshots of the Power BI dashboards are located in the screenshots/ folder:
+Screenshots of the Power BI dashboard:
 
-power_bi_bar_chart.png
-power_bi_line_graph.png
-power_bi_dashboard.png
+PLACEHOLDER FOR UPLOADING SCREENSHOTS IF NECESSARY
 
 ### 6. Recommendations and Summary
 #### Summary
