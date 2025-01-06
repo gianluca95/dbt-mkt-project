@@ -1,0 +1,38 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: public
+    database: testdb 
+    tables:
+      - name: raw_campaigns
+      - name: raw_ad_spend
+      - name: raw_conversions
+
+models:
+  - name: dim_campaigns
+    description: "Dimension table for all campaigns"
+    columns:
+      - name: campaign_id
+        tests:
+          - not_null
+          - unique
+      - name: campaign_name
+        tests:
+          - not_null
+
+  - name: fct_campaign_performance
+    description: "Fact table with daily ad spend and conversions"
+    columns:
+      - name: campaign_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_campaigns')
+              field: campaign_id
+      - name: date
+        tests:
+          - not_null
+      - name: spend
+        tests:
+          - not_null
