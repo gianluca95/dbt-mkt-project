@@ -142,7 +142,7 @@ This will run the tests you defined in your schema.yml files (e.g., not_null, un
 #### 3.3 Screenshots of dbt Tests
 Here are some example screenshots of the successful tests:
 
-![dbt-test-success](https://github.com/gianluca95/dbt-mkt-project/blob/main/images/dbt-test.png).
+![dbt-test-success](https://github.com/gianluca95/dbt-mkt-project/blob/main/images/dbt-test.png)
 
 ### 4. Analytical Queries
 We included multiple analytical queries in the sql_queries folder (for example):
@@ -150,6 +150,7 @@ We included multiple analytical queries in the sql_queries folder (for example):
 - total_metrics_per_campaign.sql
 - channel_performance.sql
 - trend_analysis.sql
+
 You can run them via psql, any SQL client, or a BI tool connected to the same database.
 
 ### 5. Power BI Visualizations
